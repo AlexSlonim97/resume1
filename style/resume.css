@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+@font-face {
+    src: url("../fonts/ofont.ru_Museo Sans Cyrl 500.ttf");
+    font-family: "Museo Sans Cyrl";
+}
+
+@font-face {
+    src: url("../fonts/ofont.ru_Museo Sans Cyrl 700.ttf");
+    font-family: "Museo Sans Cyrl Bold";
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+}
+
+.photo-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    max-width: 500px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.info-contact {
+    margin-right: 300px;
+    max-width: 500px;
+}
+
+.name {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: #23481c;
+}
+
+.info-contact span {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    margin-right: 10px;
+}
+
+.our-info span {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    margin-right: 10px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.study {
+    margin-top: 20px;
+}
+
+.study span {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.study-one {
+    max-width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.study-two {
+    max-width: 295px;
+    margin-bottom: 15px;
+}
+
+.study-three {
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    margin-bottom: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #23481c;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
